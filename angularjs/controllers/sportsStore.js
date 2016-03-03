@@ -1,5 +1,5 @@
 angular.module("sportsStore")
-        .constant("dataUrl", "http://localhost:2403/products")
+        .constant("dataUrl", "http://localhost:5000/products")
         .controller("sportsStoreCtrl", function ($scope, $http, dataUrl) {
 
 //    $scope.data = {
