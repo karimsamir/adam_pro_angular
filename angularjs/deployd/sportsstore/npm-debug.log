@@ -1,0 +1,202 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'deployd', '-g' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'deployd', null ]
+5 verbose cache add name=undefined spec="deployd" args=["deployd",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'deployd',
+6 verbose parsed url   path: 'deployd',
+6 verbose parsed url   href: 'deployd' }
+7 silly lockFile 40480fc9-deployd deployd
+8 verbose lock deployd /home/karim/.npm/40480fc9-deployd.lock
+9 silly lockFile 40480fc9-deployd deployd
+10 silly lockFile 40480fc9-deployd deployd
+11 verbose addNamed [ 'deployd', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile a0ffc02f-deployd deployd@
+14 verbose lock deployd@ /home/karim/.npm/a0ffc02f-deployd.lock
+15 silly addNameRange { name: 'deployd', range: '*', hasData: false }
+16 verbose url raw deployd
+17 verbose url resolving [ 'https://registry.npmjs.org/', './deployd' ]
+18 verbose url resolved https://registry.npmjs.org/deployd
+19 info trying registry request attempt 1 at 11:23:32
+20 http GET https://registry.npmjs.org/deployd
+21 http 200 https://registry.npmjs.org/deployd
+22 silly registry.get cb [ 200,
+22 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+22 silly registry.get     etag: '"VGX44XT0JUEI3ITEJ1CM10JY"',
+22 silly registry.get     'content-type': 'application/json',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'content-length': '58153',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sun, 28 Feb 2016 09:24:05 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-ams4139-AMS',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1456651444.124330,VS0,VE1028',
+22 silly registry.get     vary: 'Accept' } ]
+23 silly addNameRange number 2 { name: 'deployd', range: '*', hasData: true }
+24 silly addNameRange versions [ 'deployd',
+24 silly addNameRange   [ '0.3.0-alpha.1',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.8',
+24 silly addNameRange     '0.3.9',
+24 silly addNameRange     '0.3.10',
+24 silly addNameRange     '0.3.11',
+24 silly addNameRange     '0.3.12',
+24 silly addNameRange     '0.3.13',
+24 silly addNameRange     '0.3.14',
+24 silly addNameRange     '0.3.15',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.6.3',
+24 silly addNameRange     '0.6.4',
+24 silly addNameRange     '0.6.5',
+24 silly addNameRange     '0.6.6',
+24 silly addNameRange     '0.6.7',
+24 silly addNameRange     '0.6.8',
+24 silly addNameRange     '0.6.9',
+24 silly addNameRange     '0.6.10',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.8.3',
+24 silly addNameRange     '0.8.4',
+24 silly addNameRange     '0.8.5',
+24 silly addNameRange     '0.8.6',
+24 silly addNameRange     '0.8.7',
+24 silly addNameRange     '0.8.8' ] ]
+25 verbose addNamed [ 'deployd', '0.8.8' ]
+26 verbose addNamed [ '0.8.8', '0.8.8' ]
+27 silly lockFile 880c513b-deployd-0-8-8 deployd@0.8.8
+28 verbose lock deployd@0.8.8 /home/karim/.npm/880c513b-deployd-0-8-8.lock
+29 silly lockFile 880c513b-deployd-0-8-8 deployd@0.8.8
+30 silly lockFile 880c513b-deployd-0-8-8 deployd@0.8.8
+31 silly lockFile a0ffc02f-deployd deployd@
+32 silly lockFile a0ffc02f-deployd deployd@
+33 silly resolved [ { author: { name: 'Ritchie Martori' },
+33 silly resolved     name: 'deployd',
+33 silly resolved     version: '0.8.8',
+33 silly resolved     license: 'Apache-2.0',
+33 silly resolved     description: 'the simplest way to build realtime APIs for web and mobile apps',
+33 silly resolved     repository: { url: 'git://github.com/deployd/deployd.git' },
+33 silly resolved     engines: { node: '>= 0.10.0' },
+33 silly resolved     main: 'index',
+33 silly resolved     dependencies:
+33 silly resolved      { async: '^1.5.0',
+33 silly resolved        bluebird: '^3.1.1',
+33 silly resolved        commander: '^2.9.0',
+33 silly resolved        cookies: '^0.5.1',
+33 silly resolved        corser: '^2.0.0',
+33 silly resolved        debug: '^2.2.0',
+33 silly resolved        doh: '^0.0.4',
+33 silly resolved        ejs: '^2.3.4',
+33 silly resolved        filed: '^0.1.0',
+33 silly resolved        mkdirp: '*',
+33 silly resolved        mongodb: '^2.1.2',
+33 silly resolved        opener: '^1.4.1',
+33 silly resolved        qs: '^5.2.0',
+33 silly resolved        request: '2.67.0',
+33 silly resolved        scrubber: '*',
+33 silly resolved        semver: '^5.1.0',
+33 silly resolved        send: '^0.13.0',
+33 silly resolved        shelljs: '^0.5.3',
+33 silly resolved        'socket.io': '^1.3.7',
+33 silly resolved        step: '^0.0.6',
+33 silly resolved        underscore: '^1.8.3',
+33 silly resolved        validation: '*',
+33 silly resolved        wrench: '^1.5.8' },
+33 silly resolved     devDependencies:
+33 silly resolved      { chai: '*',
+33 silly resolved        less: '*',
+33 silly resolved        mocha: '*',
+33 silly resolved        rewire: '~2.5.1',
+33 silly resolved        sinon: '~1.17.2',
+33 silly resolved        'mocha-phantomjs': '^4.0.2',
+33 silly resolved        'mocha-jshint': '2.2.5' },
+33 silly resolved     bin: { dpd: './bin/dpd' },
+33 silly resolved     scripts: { test: 'mocha --timeout 5000 && cd test-app && node runtests.js' },
+33 silly resolved     gitHead: '5aa2f59121feee92cd0e65e67de59464b80d2224',
+33 silly resolved     bugs: { url: 'https://github.com/deployd/deployd/issues' },
+33 silly resolved     homepage: 'https://github.com/deployd/deployd#readme',
+33 silly resolved     _id: 'deployd@0.8.8',
+33 silly resolved     _shasum: '27c43d486b547ec0c6f0c315f2d7ccd92d2710dc',
+33 silly resolved     _from: 'deployd@',
+33 silly resolved     _npmVersion: '2.14.15',
+33 silly resolved     _nodeVersion: '4.2.2',
+33 silly resolved     _npmUser: { name: 'nicolasrtt', email: 'nicolas@ritouet.com' },
+33 silly resolved     dist:
+33 silly resolved      { shasum: '27c43d486b547ec0c6f0c315f2d7ccd92d2710dc',
+33 silly resolved        tarball: 'http://registry.npmjs.org/deployd/-/deployd-0.8.8.tgz' },
+33 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+33 silly resolved     directories: {},
+33 silly resolved     _resolved: 'https://registry.npmjs.org/deployd/-/deployd-0.8.8.tgz',
+33 silly resolved     readme: 'ERROR: No README data found!' } ]
+34 info install deployd@0.8.8 into /usr/local/lib
+35 info installOne deployd@0.8.8
+36 info /usr/local/lib/node_modules/deployd unbuild
+37 verbose tar unpack /home/karim/.npm/deployd/0.8.8/package.tgz
+38 silly lockFile 6085086b-r-local-lib-node-modules-deployd tar:///usr/local/lib/node_modules/deployd
+39 verbose lock tar:///usr/local/lib/node_modules/deployd /home/karim/.npm/6085086b-r-local-lib-node-modules-deployd.lock
+40 silly lockFile 466b04ef-im-npm-deployd-0-8-8-package-tgz tar:///home/karim/.npm/deployd/0.8.8/package.tgz
+41 verbose lock tar:///home/karim/.npm/deployd/0.8.8/package.tgz /home/karim/.npm/466b04ef-im-npm-deployd-0-8-8-package-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+43 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+43 error   errno: 3,
+43 error   code: 'EACCES',
+43 error   path: '/usr/local/lib/node_modules',
+43 error   fstream_type: 'Directory',
+43 error   fstream_path: '/usr/local/lib/node_modules/deployd',
+43 error   fstream_class: 'DirWriter',
+43 error   fstream_stack:
+43 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+43 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+43 error      'Object.oncomplete (fs.js:107:15)' ] }
+44 error Please try running this command again as root/Administrator.
+45 error System Linux 3.19.0-51-generic
+46 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "deployd" "-g"
+47 error cwd /home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/deployd/sportsstore
+48 error node -v v0.10.25
+49 error npm -v 1.3.10
+50 error path /usr/local/lib/node_modules
+51 error fstream_path /usr/local/lib/node_modules/deployd
+52 error fstream_type Directory
+53 error fstream_class DirWriter
+54 error code EACCES
+55 error errno 3
+56 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+57 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+57 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+57 error fstream_stack Object.oncomplete (fs.js:107:15)
+58 verbose exit [ 3, true ]
