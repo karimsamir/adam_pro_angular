@@ -34,7 +34,7 @@ angular.module("sportsStoreAdmin")
         })
         .controller("ordersCtrl", function ($scope, $http, ordersUrl) {
 
-            $http.get(ordersUrl, {withCredential: true})
+            $http.get(ordersUrl, {withCredentials: true})
                     .success(function (data) {
                         $scope.orders = data;
                     })
