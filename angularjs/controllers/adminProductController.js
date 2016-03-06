@@ -5,7 +5,7 @@ angular.module("sportsStoreAdmin")
         })
         .controller("productCtrl", function ($scope, $resource, productUrl) {
 
-            $scope.productsResource = $resource(productUrl + "id", {id: "@id"});
+            $scope.productsResource = $resource(productUrl + ":id", {id: "@id"});
 
             $scope.listProducts = function () {
                 $scope.products = $scope.productsResource.query();
@@ -16,7 +16,6 @@ angular.module("sportsStoreAdmin")
                     $scope.products.splice($scope.products.indexOf(product), 1);
                 });
             };
-
 
             $scope.createProduct = function (product) {
                 new $scope.productsResource(product).$save().then(function (newProduct) {
@@ -39,5 +38,4 @@ angular.module("sportsStoreAdmin")
             }
 
             $scope.listProducts();
-
         });
