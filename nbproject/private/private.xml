@@ -5,8 +5,14 @@
         <group name="pro_angular"/>
         <group name="apress_pro_angular">
             <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/views/placeOrder.html</file>
+            <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/views/adminProducts.html</file>
             <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/views/thankYou.html</file>
             <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/controllers/sportsStore.js</file>
+            <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/views/adminMain.html</file>
+            <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/controllers/adminControllers.js</file>
+            <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/views/adminOrders.html</file>
+            <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/views/adminLogin.html</file>
+            <file>file:/home/karim/Documents/Php_projects/Tutorials/apress_pro_angular/angularjs/admin.html</file>
         </group>
     </open-files>
 </project-private>
